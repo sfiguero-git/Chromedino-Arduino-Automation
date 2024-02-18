@@ -1,5 +1,9 @@
 ![Dino Arduino Banner](https://github.com/sfiguero-git/Chromedino-Arduino-Automation/assets/35702217/c4c48343-2158-45b5-9a8f-1d0c427d60de)
 ## Demo video (Python and Arduino versions): https://youtu.be/bz1vA3rF-I8
+## Circuit Diagram
+
+![Circuit Diagram Dino Chrome](https://github.com/sfiguero-git/Chromedino-Arduino-Automation/assets/35702217/128280c0-13b2-42dd-bb2c-402d559c5ab7)
+
 ## Running the script
 Running the **chromedino_auto.ino** is pretty straightforward, you just have to download the folder with the file that is included as part of this repository. When you open the script you'll notice the following line: 
 
