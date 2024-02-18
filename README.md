@@ -1,6 +1,6 @@
 ![Dino Arduino Banner](https://github.com/sfiguero-git/Chromedino-Arduino-Automation/assets/35702217/c4c48343-2158-45b5-9a8f-1d0c427d60de)
 ## Demo video (Python and Arduino versions): https://youtu.be/bz1vA3rF-I8
-## List of components used
+## List of Components Used
 * 1 X UNO R3 Board (ATmega328P)
 * 1 X Photoresistor
 * 1 X LED
