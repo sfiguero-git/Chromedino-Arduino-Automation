@@ -24,7 +24,7 @@ void pressKey(){
    delay(100); 
 }
 
-// This is the first method that is called in our script
+// This is the first function that is called in our script
 void setup() {
  // Serial.begin(9600); -> For debugging purposes, so we can see the values of R in the Serial Monitor of our IDE
   pinMode(ledPin, OUTPUT);  //Set digital pin 0 as output
