@@ -37,7 +37,7 @@ void loop() {
   sensorVal = analogRead(sensorPin); // Read current value for our photoresistor
   while(sensorVal > sensitivity){  // while the value of R we read > 15 (sensitivity value we defined):
     digitalWrite(ledPin, 0);      // Turn off the LED
-    sensorVal = analogRead(sensorPin); // //Check if we should exit the while loop
+    sensorVal = analogRead(sensorPin); //Check if we should exit the while loop
    // Serial.println(sensorVal); -> we could use this to debug and check the range of values of R we read from our photoresistor
     delay(1);
   }  
