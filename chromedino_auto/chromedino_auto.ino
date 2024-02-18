@@ -6,8 +6,8 @@
 
 int sensorPin = A0;   //Input that varies with the resistance of our photoresistor (depends on light source)
 int sensorVal = 0;  //variable to store the value we read from our photoresistor
-int ledPin = 0; // We'll connect the anode oof our LED to the digital pin 0 to control it
-int sensitivity = 15; //Helps us define a threshold for activating our servo motor an LED
+int ledPin = 0; // We'll connect the anode of our LED to the digital pin 0 to control it
+int sensitivity = 15; //Helps us define a threshold for activating our servo motor and LED
 
 // We'll use the digital pin 3 for controlling the micro servo motor
 int servoPin = 3;
@@ -37,7 +37,7 @@ void loop() {
   sensorVal = analogRead(sensorPin); // Read current value for our photoresistor
   while(sensorVal > sensitivity){  // while the value of R we read > 15 (sensitivity value we defined):
     digitalWrite(ledPin, 0);      // Turn off the LED
-    sensorVal = analogRead(sensorPin); // Check if we can break the while loop
+    sensorVal = analogRead(sensorPin); // //Check if we should exit the while loop
    // Serial.println(sensorVal); -> we could use this to debug and check the range of values of R we read from our photoresistor
     delay(1);
   }  
